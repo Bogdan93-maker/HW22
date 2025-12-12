@@ -55,5 +55,6 @@ public class Main {
         System.out.println(massDifference);
         var remainder = boxer2Mass % boxer1Mass;
         System.out.println(remainder);
+
     }
 }
