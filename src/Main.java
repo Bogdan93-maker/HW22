@@ -10,6 +10,50 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
-        }
+        }var dog=0.8;
+        System.out.println(dog);
+        var cat=3.6;
+        System.out.println(cat);
+        var paper=763789;
+        System.out.println(paper);
+
+        var dog1=dog+2;
+        System.out.println(dog1);
+        var cat1=cat+2;
+        System.out.println(cat1);
+        var paper1=paper+2;
+        System.out.println(paper1);
+
+        var dog2=dog1-3.5;
+        System.out.println(dog2);
+        var cat2=cat1-1.6;
+        System.out.println(cat2);
+        var paper2=paper1-7639;
+        System.out.println(paper2);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        var boxer1Mass = 78.2;
+        var boxer2Mass = 82.7;
+        var totalMass = boxer1Mass + boxer2Mass;
+        System.out.println(totalMass);
+        var massDifference = (boxer1Mass - boxer2Mass);
+        System.out.println(massDifference);
+        var remainder = boxer2Mass % boxer1Mass;
+        System.out.println(remainder);
     }
 }
