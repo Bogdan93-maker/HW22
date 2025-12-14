@@ -10,26 +10,26 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
-        }var dog=0.8;
+        }var dog=8.0;
         System.out.println(dog);
         var cat=3.6;
         System.out.println(cat);
         var paper=763789;
         System.out.println(paper);
 
-        var dog1=dog+2;
-        System.out.println(dog1);
-        var cat1=cat+2;
-        System.out.println(cat1);
-        var paper1=paper+2;
-        System.out.println(paper1);
+        dog=dog+2;
+        System.out.println(dog);
+        cat=cat+2;
+        System.out.println(cat);
+        paper=paper+2;
+        System.out.println(paper);
 
-        var dog2=dog1-3.5;
-        System.out.println(dog2);
-        var cat2=cat1-1.6;
-        System.out.println(cat2);
-        var paper2=paper1-7639;
-        System.out.println(paper2);
+        dog=dog-3.5;
+        System.out.println(dog);
+        cat=cat-1.6;
+        System.out.println(cat);
+        paper=paper-7639;
+        System.out.println(paper);
 
         var friend = 19;
         System.out.println(friend);
@@ -55,6 +55,15 @@ public class Main {
         System.out.println(massDifference);
         var remainder = boxer2Mass % boxer1Mass;
         System.out.println(remainder);
+
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var employees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании — " + employees + " человек");
+        var newEmployees = employees + 94;
+        System.out.println(newEmployees);
+        var newTotalHours = newEmployees * hoursPerEmployee;
+        System.out.println("Если в компании работает " + newEmployees + " человек, то всего " + newTotalHours + " часов работы может быть поделено между сотрудниками");
 
     }
 }
